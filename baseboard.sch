@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="50" unitdist="mil" unit="mil" style="lines" multiple="1" display="yes" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="no" active="no"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
@@ -1572,7 +1572,7 @@ Source: http://cache.national.com/ds/LM/LM321.pdf</description>
 <part name="SUPPLY26" library="supply2" deviceset="GND" device=""/>
 <part name="SV1" library="con-amp-mt" deviceset="S04P" device=""/>
 <part name="A1" library="OPL Eagle Library" deviceset="ARDUINOSHIELD" device=""/>
-<part name="C3" library="OPL Eagle Library" deviceset="C*" device="-0603"/>
+<part name="C3" library="OPL Eagle Library" deviceset="C*" device="-0603" value="100nF"/>
 <part name="J1" library="OPL Eagle Library" deviceset="CONNECTOR-HEADER-2X2P" device="2X2P-2.54-REVERSE" value="CONNECTOR-HEADER-2X2P2X2P-2.54-REVERSE"/>
 <part name="J2" library="OPL Eagle Library" deviceset="CONNECTOR-HEADER-2X2P" device="2X2P-2.54-REVERSE" value="CONNECTOR-HEADER-2X2P2X2P-2.54-REVERSE"/>
 <part name="J3" library="OPL Eagle Library" deviceset="CONNECTOR-HEADER-2X2P" device="2X2P-2.54-REVERSE" value="CONNECTOR-HEADER-2X2P2X2P-2.54-REVERSE"/>
@@ -1728,7 +1728,7 @@ Source: http://cache.national.com/ds/LM/LM321.pdf</description>
 <part name="SUPPLY148" library="supply2" deviceset="GND" device=""/>
 <part name="C4" library="OPL Eagle Library" deviceset="C*" device="-0603" value="100pF"/>
 <part name="IC1" library="linear" deviceset="LM321?*" device="MF"/>
-<part name="R7" library="OPL Eagle Library" deviceset="R*" device="-0603" value="1M"/>
+<part name="R7" library="OPL Eagle Library" deviceset="R*" device="-0603" value="2M"/>
 <part name="R8" library="OPL Eagle Library" deviceset="R*" device="-0603" value="10K"/>
 <part name="R9" library="OPL Eagle Library" deviceset="R*" device="-0603" value="10K"/>
 <part name="R10" library="OPL Eagle Library" deviceset="R*" device="-0603" value="10K"/>
