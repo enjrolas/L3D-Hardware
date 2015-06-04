@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="0.05" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="no" active="no"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
@@ -68,7 +68,7 @@
 <layer number="60" name="bCarbon" color="7" fill="1" visible="no" active="no"/>
 <layer number="91" name="Nets" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="92" name="Busses" color="1" fill="1" visible="yes" active="yes"/>
-<layer number="93" name="Pins" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="93" name="Pins" color="2" fill="1" visible="no" active="yes"/>
 <layer number="94" name="Symbols" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="95" name="Names" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="96" name="Values" color="7" fill="1" visible="yes" active="yes"/>
@@ -6504,6 +6504,7 @@ Source:  FDD4141.pdf</description>
 <plain>
 <text x="-26.67" y="-73.66" size="1.778" layer="97">User IO</text>
 <text x="-160.02" y="-96.52" size="1.778" layer="97">when S1 is connected, the cube is in 'online' mode</text>
+<text x="-76.2" y="-105.41" size="1.778" layer="97">online/offline switch</text>
 </plain>
 <instances>
 <instance part="SUPPLY26" gate="GND" x="-60.96" y="-22.86"/>
@@ -7241,7 +7242,10 @@ Source:  FDD4141.pdf</description>
 <instance part="SUPPLY34" gate="GND" x="172.72" y="-143.51"/>
 <instance part="SUPPLY24" gate="GND" x="-20.32" y="-120.65"/>
 <instance part="SUPPLY35" gate="GND" x="-12.7" y="-120.65"/>
-<instance part="L1" gate="L" x="10.16" y="-99.06" rot="R90"/>
+<instance part="L1" gate="L" x="10.16" y="-99.06" smashed="yes" rot="R90">
+<attribute name="NAME" x="15.24" y="-96.52" size="1.27" layer="95" ratio="10" rot="R180"/>
+<attribute name="VALUE" x="12.7" y="-101.6" size="1.27" layer="96" ratio="10"/>
+</instance>
 <instance part="C19" gate="C" x="-20.32" y="-111.76" rot="R270"/>
 </instances>
 <busses>
@@ -9295,7 +9299,7 @@ Source:  FDD4141.pdf</description>
 <wire x1="-88.9" y1="-50.8" x2="-101.6" y2="-50.8" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="MODE" class="0">
+<net name="JOIN_WIFI" class="0">
 <segment>
 <pinref part="BUTTON" gate="K" pin="A0"/>
 <wire x1="-82.55" y1="-129.54" x2="-87.63" y2="-129.54" width="0.1524" layer="91"/>

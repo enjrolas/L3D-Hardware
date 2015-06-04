@@ -32741,7 +32741,7 @@ design rules under a new name.</description>
 <wire x1="121.2977" y1="22.7076" x2="121.3237" y2="22.7336" width="0.3048" layer="1"/>
 <wire x1="121.3237" y1="22.7336" x2="126.1074" y2="22.7336" width="0.3048" layer="1"/>
 </signal>
-<signal name="ONLINE-OFFLINE">
+<signal name="SWITCH">
 <contactref element="R6" pad="2"/>
 <contactref element="S1" pad="2"/>
 <contactref element="JP2" pad="10"/>
