@@ -1,0 +1,40 @@
+Partlist exported from /Users/japhy/Downloads/L3D-Hardware-master/1x1x1 cube/L3D_Necklace_Rev1.sch at 4/11/16 1:42 PM
+
+Part Value                              Device                             Package              Description                                                             
+B1   BUTTONCELLLIR1632                  BUTTONCELLLIR1632                  BUTTONCELL_LIR1632                                                                           
+C1   100nF                              C-0603                             0603                 Ceramic Capacitors                                                      
+C2   100nF                              C-0603                             C0603                                                                                        
+C6   10nF                               C-0603                             C0603                                                                                        
+C7   100nF                              C-0603                             C0603                                                                                        
+C9   100nF                              C-0603                             0603                 Ceramic Capacitors                                                      
+C11  100nF                              C-0603                             0603                 Ceramic Capacitors                                                      
+C12  100nF                              C-0603                             0603                 Ceramic Capacitors                                                      
+D1                                      WS2812BWS2812B_STANDARD            WS2812B_STANDARD                                                                             
+D2                                      LEDLED1206                         LED1206              LED                                                                     
+J1   CONNECTOR-HEADER-2X3P2X3P-2.54-SMT CONNECTOR-HEADER-2X3P2X3P-2.54-SMT 2X3P-2.54-SMT                                                                                
+J2   VCC                                1R5MM-HOLE                         1R5MM-HOLE                                                                                   
+J3   GND                                1R5MM-HOLE                         1R5MM-HOLE                                                                                   
+J4   D0                                 1R5MM-HOLE                         1R5MM-HOLE                                                                                   
+J5   A0                                 1R5MM-HOLE                         1R5MM-HOLE                                                                                   
+JP1  USBUSB-MICROB-SLOT-HOLE            USBUSB-MICROB-SLOT-HOLE            USB-MICROB-SLOT-HOLE                                                                         
+M1   MICROPHONEMICROPHONE_1*3MM         MICROPHONEMICROPHONE_1*3MM         MICROPHONE_1*3MM                                                                             
+Q1   TRANSISTOR-NPN-0400000P1           TRANSISTOR-NPN-0400000P1           SOT23                S9013：NPN Transistor                                                    
+R1   75k                                R-0603                             0603                                                                                         
+R2   100k                               R-0603                             0603                                                                                         
+R3   50                                 R-0603                             0603                                                                                         
+R4   1k                                 R-0603                             0603                                                                                         
+R5   10k                                R-0603                             0603                                                                                         
+R6   51                                 R-0603                             R0603                                                                                        
+R7   100K                               R-0603                             R0603                                                                                        
+R8   10K                                R-0603                             R0603                                                                                        
+R9   10K                                R-0603                             R0603                                                                                        
+R10  10K                                R-0603                             R0603                                                                                        
+R11  100K                               R-0603                             R0603                                                                                        
+R12  100K                               R-0603                             R0603                                                                                        
+R13  100K                               R-0603                             R0603                                                                                        
+R17  100K                               R-0603                             R0603                                                                                        
+U1   MEGA8                              MEGA8                              MLF32X                                                                                       
+U2   IC_SMD_FT232RQ                     IC_SMD_FT232RQ                     IC_SMD_QFN32         Source: http://www.ftdichip.com/Documents/DataSheets/DS_FT232R_v104.pdf 
+U3   LM358DRSOT23-8(M8)                 LM358DRSOT23-8(M8)                 SOT-23-8(M8)         General purpose LOW Voltage, Rail-to-Rail Output Amplifiers             
+Y1   SMARTPRJ_RESONATORMU               SMARTPRJ_RESONATORMU               SMARTPRJ_RESONATOR                                                                           
+Z1   TL431                              TL431SOT23                         SOT23                                                                                        
